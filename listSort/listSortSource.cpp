@@ -6,7 +6,7 @@
 using namespace std;
 //list 不能使用sort函数，因为list的迭代器是bidirectional_iterator, 而sort
 //sort函数要求random_access_iterator
-
+  
 void sort()
 {
     list<int> Nums = { 5,8,2,4,9,0 };
